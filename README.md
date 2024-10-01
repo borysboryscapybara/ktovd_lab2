@@ -45,7 +45,25 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 ```
 
 ## Part 2.1
-
+Программа підраховує кількість слів у визначенному стовпчику
+```
+All words and their counts:
++----------------+-----+
+|word            |count|
++----------------+-----+
+|of              |926  |
+|population      |298  |
+|current         |283  |
+|us              |238  |
+|total           |217  |
+|female          |215  |
+...
+|technologies    |3    |
+|receiving       |3    |
+|gap             |3    |
+Total number of words: 12663
+Results saved to word_counts_result.txt
+```
 
 ## Part 2.2 
 
