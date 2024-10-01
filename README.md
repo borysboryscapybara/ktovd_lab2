@@ -29,7 +29,7 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 
 
 
-
+## Part 1
 ```
 Слова великими літерами: ['APPLE', 'BANANA', 'CHERRY', 'DATE', 'ELDERBERRY', 'FIG', 'GRAPE', 'BANANA', 'APPLE']
 Слова, що починаються з 'B': ['banana', 'banana']
@@ -42,4 +42,42 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 Перший підрахунок: 10
 Другий підрахунок: 10
 Третій підрахунок: 10
+```
+
+## Part 2.1
+
+
+## Part 2.2 
+
+```
+Top 10 IP addresses by request count:
++---------------+-----+ 
+|ip             |count| 
++---------------+-----+ 
+|192.168.145.92 |23043| 
+|192.168.145.107|7521 | 
+|192.168.1.255  |7160 | 
+|192.168.1.121  |7059 | 
+|192.168.1.253  |5820 | 
+|10.240.53.6    |5733 | 
+|192.168.1.146  |5532 | 
+|10.240.53.113  |5402 | 
+|192.168.145.30 |5082 | 
+|10.240.53.5    |5068 | 
++---------------+-----+ 
+only showing top 10 rows
+
+
+Request counts by status:
++------+------+
+|status|count |
++------+------+
+|200   |448119|
+|206   |264   |
+|304   |1583  |
+|400   |4     |
+|403   |733   |
+|404   |1252  |
+|500   |118   |
++------+------+
 ```
