@@ -3,10 +3,12 @@
 pip install pyspark
 ![alt text](image.png)
 
-
+```
 set SPARK_HOME=C:\path\to\spark
 set HADOOP_HOME=C:\path\to\spark\bin
-
+pip install pyspark
+pip install psutil
+```
 
 ```
 PS D:\knute\ktovd\lab\lab 2\ktovd_lab2>  & 'd:\knute\ktovd\lab\lab 2\ktovd_lab2\.venv\Scripts\python.exe' 'c:\Users\chere\.vscode\extensions\ms-python.debugpy-2024.10.0-win32-x64\bundled\libs\debugpy\adapter/../..\debugpy\launcher' '55527' '--' 'd:\knute\ktovd\lab\lab 2\ktovd_lab2\part1.py'
