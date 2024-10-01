@@ -1,6 +1,6 @@
 # ktovd_lab2
 
-pip install pyspark
+``pip install pyspark``
 ![alt text](image.png)
 
 ```
