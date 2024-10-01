@@ -99,3 +99,33 @@ Request counts by status:
 |500   |118   |
 +------+------+
 ```
+
+## Part 2.3 
+Гістограма збережена у файлі word_histogram.png
+```
+Top 20 words:
+class: 246    
+li: 217       
+span: 184     
+div: 156      
+a: 151        
+data: 90      
+en: 85        
+pl: 79        
+https: 77     
+href: 71      
+mostwiedzy: 59
+id: 59
+in: 58
+and: 57
+the: 54
+prices: 51
+col: 49
+script: 48
+search: 47
+of: 45
+
+The most common word in the article is: 'class'
+
+Total number of words in the article: 5121
+```
