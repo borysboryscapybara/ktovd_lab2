@@ -24,3 +24,22 @@ To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLeve
 |Jane| 28|
 +----+---+
 ```
+
+
+
+
+
+
+```
+Слова великими літерами: ['APPLE', 'BANANA', 'CHERRY', 'DATE', 'ELDERBERRY', 'FIG', 'GRAPE', 'BANANA', 'APPLE']
+Слова, що починаються з 'B': ['banana', 'banana']
+Унікальні слова: ['apple', 'banana', 'cherry', 'date', 'elderberry', 'fig', 'grape']
+Числа в квадраті: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+Парні числа: [2, 4, 6, 8, 10]
+Кількість парних чисел: 5
+Сума всіх чисел: 55
+Добуток всіх чисел: 3628800
+Перший підрахунок: 10
+Другий підрахунок: 10
+Третій підрахунок: 10
+```
