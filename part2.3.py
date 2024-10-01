@@ -20,7 +20,7 @@ spark = SparkSession.builder \
     .config("spark.driver.memory", "4g") \
     .getOrCreate()
 
-article_url = "https://mostwiedzy.pl/en/open-research-data/data-on-lego-sets-release-dates-and-retail-prices-combined-with-aftermarket-transaction-prices-betwe,10210741381038465-0" 
+article_url = "https://gist.githubusercontent.com/dupuy/1855764/raw/338c3d9f4aab955aab32b673707f1aa2d09d7e7f/README.rst" 
 local_filename = "part2.3.txt"
 
 download_file(article_url, local_filename)
