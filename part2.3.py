@@ -48,7 +48,7 @@ plt.xlabel('Words')
 plt.ylabel('Frequency')
 plt.xticks(rotation=45, ha='right')
 plt.tight_layout()
-plt.savefig('word_histogram.png')
+plt.savefig('word_histogram.pdf')
 plt.close()
 
 #output
